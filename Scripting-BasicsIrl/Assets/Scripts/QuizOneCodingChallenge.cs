@@ -18,6 +18,8 @@ public class QuizOneCodingChallenge : MonoBehaviour
     void Start()
     {
         PrintPlayerName();
+        IncreaseScore();
+        DecreaseHealth();
     }
 
     // Update is called once per frame
